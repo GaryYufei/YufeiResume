@@ -105,6 +105,8 @@ html, body {
 	border-radius: 5px;
 }
 
+.timelineitem.change:before{ background: red; }
+
 .tdate {
 	font-size: 18px;
 	font-weight: 400;
