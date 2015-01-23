@@ -3,10 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Yufei@Resume</title>
-	<script src="js/jquery.js" type="text/javascript" ></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/index.css">
-	<script src="js/index.js" type="text/javascript" ></script>
+	<link rel="stylesheet" href="css/jquery.nailthumb.1.1.min.css">
 </head>
 <body>
 	<div id="header" class="bg">
@@ -60,24 +59,45 @@
 	<hr class="soft">
 	<div class="container" id="project">
 		<h2>Interesting Project</h2>
-
-		<div class="row">
-			<div class="col-md-4">
-				<a href="https://code.google.com/p/bnkit/" class="thumbnail">
-      				<img data-src="holder.js/100%x180" alt="..." src="img/bn.jpg">
-    			</a>
-				<div class="top">BNKit</div>
-				<div class="text">
-					A programmer's toolkit for Bayesian networks. Co-developed by bioinformatics group in UQ
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="nailthumb-container projectimg">
+								<a href="https://code.google.com/p/bnkit/" >
+				      				<img alt="..." src="img/bn.jpeg">
+				    			</a>
+				    		</div>
+			    		</div>
+			    		<div class="col-md-8">
+							<div class="top">BNKit</div>
+							<div class="text">
+								A programmer's toolkit for Bayesian networks. Co-developed by bioinformatics group in UQ
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="nailthumb-container projectimg">
+								<a href="https://github.com/GaryYufei/Yah3cWin" >
+				      				<img alt="..." src="img/yah3c.jpg">
+				    			</a>
+				    		</div>
+			    		</div>
+			    		<div class="col-md-8">
+							<div class="top">Yah3cWin</div>
+							<div class="text">
+								A unofficial window-based Yah3c client core for SYSU 
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					
 				</div>
 			</div>
-			<div class="col-md-4">
-				
-			</div>
-			<div class="col-md-4">
-				
-			</div>
-		</div>
 	</div>
 
 	<hr class="soft">
@@ -106,4 +126,7 @@
 		</table>
 	</div>
 </body>
+	<script src="js/jquery.js" type="text/javascript" ></script>
+	<script src="js/index.js" type="text/javascript" ></script>
+	<script src="js/jquery.nailthumb.1.1.min.js" type="text/javascript" ></script>
 </html>
