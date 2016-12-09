@@ -62,7 +62,7 @@ html, body {
 }
 
 #timeline {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -80,7 +80,7 @@ html, body {
 }
 
 .timelineitem:nth-child(odd):before {
-	left: -8px;
+	left: -10px;
 }
 
 .timelineitem:nth-child(even) {
@@ -91,21 +91,43 @@ html, body {
 }
 
 .timelineitem:nth-child(even):before {
-	right: -8px;
+	right: -10px;
+
 }
 
-.timelineitem:before {
-	width: 11px;
-	height: 11px;
-	background: #333;
-	content: "";
-	display: block;
+
+.normalitem:before {
+	background-color: white;
 	position: absolute;
-	top: 0;
-	border-radius: 5px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.timelineitem.change:before{ background: red; }
+.normalitem:nth-child(odd):before {
+	content: "\e127";
+}
+
+.normalitem:nth-child(even):before {
+	content: "\e128";
+}
+
+
+.summary_node:before {
+	background-color: white;
+	position: absolute;
+    content: "\e081";
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor:pointer;
+}
 
 .tdate {
 	font-size: 18px;
@@ -178,7 +200,9 @@ h2 {
 	color: #000;
 }
 
-.projectimg {
-	width:100px;
-	height:150px;
+.public_title {
+	font-size: 25px;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
 }
