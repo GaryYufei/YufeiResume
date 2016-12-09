@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('.nailthumb-paper-container').nailthumb({width:280,height:200});
     
     $('#undergarduate_node').click(function(){
-    	$('.undergarduate').toggle("slow");
+    	$('.undergarduate').toggle("quick");
     	if($('.undergarduate').is(":visible")) {
     		$('.undergarduate').removeAttr('style');
     	}
