@@ -200,9 +200,13 @@ h2 {
 	color: #000;
 }
 
-.public_title {
+.title {
 	font-size: 25px;
 	font-weight: 400;
 	color: #000;
-	text-align: center;
+}
+
+.author {
+	font-size: 15px;
+	font-weight: 100;
 }
